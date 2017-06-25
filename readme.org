@@ -1,1 +1,5 @@
 * Emacs Selected Packages
+* Licenses
+| Package |      Version | Source | License                                                                                             |
+|---------+--------------+--------+-----------------------------------------------------------------------------------------------------|
+| ac-js2  | 20140906.442 | Melpa  | [[file:.emacs.d/elpa/ac-js2-20140906.442/ac-js2.el::This%20program%20is%20free%20software][GPL v3]] |
