@@ -1,6 +1,16 @@
 (require 'package)
 
+;; (setq package-check-signature nil)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa_deleted" . "./melpa_deleted") t)
+
+(setq package-archive-priorities
+      '(("gnu" . 10)
+        ("melpa" . 20)
+        ("melpa_deleted" . 30)
+        ))
+
+
 
 (setq prelude-packages  '(
                             ac-js2
@@ -22,10 +32,12 @@
                             command-log-mode
                             company
                             company-c-headers
+                            company-lsp
                             counsel
                             counsel-gtags
                             counsel-projectile
                             csv-mode
+                            cquery
                             dash
                             dash-functional
                             deferred
@@ -39,6 +51,7 @@
                             elpy
                             epl
                             ess
+                            eglot
                             evil
                             evil-escape
                             evil-ledger
@@ -89,10 +102,12 @@
                             levenshtein
                             linum-relative
                             lua-mode
+                            lsp-clangd
                             magit
                             magit-popup
                             markdown-mode
                             mmm-mode
+                            modern-cpp-font-lock
                             move-text
                             multiple-cursors
                             narrow-indirect
@@ -103,6 +118,8 @@
                             ox-reveal
                             pandoc-mode
                             paredit
+                            perspective
+                            persp-projectile
                             phi-search
                             php-mode
                             pkg-info
@@ -151,7 +168,7 @@
     (package-initialize)
     ;; see (info "(emacs)Package Installation")
     (setq package-enable-at-startup nil)
-    
+
     (with-demoted-errors
         (unless (prelude-packages-installed-p)
           ;; check for new packages (package versions)
@@ -164,4 +181,5 @@
             )))
     ))
 
-;; and then run: (elpamr-create-mirror-for-installed)
+
+(elpamr-create-mirror-for-installed "./packages" 't)
