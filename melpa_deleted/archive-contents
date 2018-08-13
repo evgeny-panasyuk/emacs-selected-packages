@@ -4,5 +4,5 @@
  (icicles . [(20170917 942) nil "Minibuffer input completion and cycling." tar])
  (ido-ubiquitous . [(20170923 842) ((ido-completing-read+ (4 6)) (cl-lib (0 5))) "Use ido (nearly) everywhere." single])
  (narrow-indirect . [(20170820 1748) nil "Narrow using an indirect buffer that is a clone" single])
- (ox-reveal . [(20161027 226) ((org (20150330))) "reveal.js Presentation Back-End for Org Export Engine" single])
+ (ox-reveal . [(20161027 226) ((org (9 1 13))) "reveal.js Presentation Back-End for Org Export Engine" single])
 )

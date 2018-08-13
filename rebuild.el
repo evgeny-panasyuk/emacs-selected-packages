@@ -169,7 +169,7 @@
     ;; see (info "(emacs)Package Installation")
     (setq package-enable-at-startup nil)
 
-    (with-demoted-errors
+    (progn ;; with-demoted-errors
         (unless (prelude-packages-installed-p)
           ;; check for new packages (package versions)
           (package-refresh-contents)

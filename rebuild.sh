@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 export HOME=$(cd $(dirname "$0"); pwd)
 git clean -dfx .emacs.d
 #emacs --eval="(require 'package)" --eval="(package-refresh-contents)" &&
