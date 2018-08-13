@@ -32,7 +32,7 @@ diminish,20170419.1736,GPL v2 or later
 dired+,20170818.1411,GPL v2 or later
 dired-sort-menu,20130824.507,GPL v2 or later
 ebib,20180730.2103,GPL v3 or later
-eglot,20180811.2322,GPL v3 or later
+eglot,20180813.50,GPL v3 or later
 ein,20180809.1416,GPL v3 or later
 elpa-mirror,20180301.36,GPL v3 or later
 elpy,20180810.1731,GPL v3 or later
@@ -52,7 +52,7 @@ flycheck,20180720.947,GPL v3 or later
 flycheck-ledger,20180125.831,GPL v3 or later
 geben,20170801.1251,GPL v3 or later
 ggtags,20180725.1713,GPL v3 or later
-ghub,20180811.1808,GPL v3 or later
+ghub,20180812.1628,GPL v3 or later
 git-commit,20180802.2018,GPL v3 or later
 git-gutter,20161105.1356,GPL v3 or later
 gnuplot,20141231.2137,GPL v2 or later
@@ -85,7 +85,7 @@ ivy-dired-history,20170626.556,GPL v3 or later
 ivy-rtags,20170523.454,GPL v3 or later
 jinja2-mode,20141128.1007,GPL v3 or later
 js2-mode,20180724.801,GPL v3 or later
-jsonrpc,1.0.5,GPL v3 or later
+jsonrpc,1.0.6,GPL v3 or later
 latex-pretty-symbols,20151112.1044,GPL v2 or later
 ledger-mode,20180728.1604,GPL v2 or later
 levenshtein,20090830.1040,GPL v2 or later
@@ -103,21 +103,49 @@ move-text,20170909.330,GPL v3 or later
 multiple-cursors,20180615.1218,GPL v3 or later
 narrow-indirect,20170820.1748,GPL v3 or later
 ob-ipython,20180224.953,MIT
+org,9.1.13,GPL v3 or later
 outorg,20170414.1915,GPL v2 or later
 outshine,20180625.1959,GPL v2 or later
+ox-reveal,20161027.226,GPL v3 or later
+pandoc-mode,20180727.2201,BSD 3-Clause
+paredit,20171127.205,GPL v3 or later
 parsebib,20180116.1427,BSD 3-Clause
+perspective,20180717.2103,Licensed under the same terms as Emacs
+persp-projectile,20180616.1944,GPL v3 or later
+phi-search,20180322.129,GPL v2 or later
+php-mode,20180729.1023,GPL v3 or later
 pkg-info,20150517.1143,GPL v3 or later
 popup,20160709.1429,GPL v3 or later
 projectile,20180808.833,GPL v3 or later
+projectile-speedbar,20170517.243,GPL v3 or later
+puppet-mode,20171221.649,GPL v3 or later
 pyvenv,20180727.1142,GPL v3 or later
+rainbow-mode,1.0.1,GPL v3 or later
+region-bindings-mode,20140407.2214,GPL v3 or later
 request,20170201.147,GPL v3 or later
 request-deferred,20160419.2305,GPL v3 or later
 rtags,20180730.654,GPL v3 or later
 s,20180406.808,GPL v3 or later
+shm,20180327.57,GPL v3 or later
 simple-httpd,20180528.1603,Public domain
 skewer-mode,20180706.1807,Public domain
+smex,20151212.2209,Licensed under the same terms as Emacs
+sr-speedbar,20161025.831,GPL v3 or later
 swiper,20180807.1825,GPL v3 or later
+tabbar,20180726.1735,GPL v3 or later
+tablist,20170220.335,GPL v3 or later
 undo-tree,0.6.5,GPL v3 or later
+use-package,20180715.1801,GPL v3 or later
+visual-fill-column,20180727.2225,GPL v3 or later
+visual-regexp,20170301.116,GPL v3 or later
+vi-tilde-fringe,20141028.242,GPL v3 or later
+w3m,20180405.520,GPL v2 or later
+web-mode,20180809.2128,GPL v2 or later
 websocket,20180423.16,GPL v3 or later
+wgrep,20180711.626,GPL v3 or later
+wgrep-helm,20170510.2239,GPL v3 or later
 with-editor,20180726.2044,GPL v3 or later
+wolfram-mode,20180307.13,GPL v2 or later
+writeroom-mode,20170623.1027,BSD 3-Clause
+yaml-mode,20180409.607,GPL v2 or later
 yasnippet,20180621.50,GPL v3 or later
